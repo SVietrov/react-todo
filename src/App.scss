@@ -1,0 +1,83 @@
+.modal-window {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: #ccc;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-heading {
+  margin: 50px 0;
+}
+
+.card{
+  &-body .btn-danger {
+    margin-left: 10px;
+  }
+  &-title{
+    margin-bottom: 0px!important;
+  }
+  &-date{
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  &-item {
+    margin-bottom: 20px;
+  }
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.btn-add {
+  margin-top: 10px;
+}
+
+.sort-link {
+  color: #0d6efd;
+  cursor: pointer;
+  margin-left: 10px;
+  user-select: none;
+}
+
+.control-panel {
+  margin: 10px 0;
+}
+
+.change-form {
+  margin-top: 25px;
+  display: none;
+  & button {
+    margin-top: 10px;
+  }
+}
+
+.priority-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: rgb(235, 55, 55);
+}
+
+.green {
+  background-color: rgb(96, 204, 93);
+}
+
+.yellow {
+  background-color: #f1c40f;
+}
+
+body {
+  background-color: rgb(231, 230, 230) !important;
+}
